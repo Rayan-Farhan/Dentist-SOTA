@@ -32,30 +32,6 @@ DentaVision uses a **"Heavy-Edge, Light-Cloud"** approach to ensure HIPAA/GDPR c
 * **Infrastructure:** Docker + Heroku + GitHub Actions.
 
 ---
-
-##  Directory Structure
-
-```text
-DentaVision/
-├── .github/                # CI/CD Workflows & PR Templates
-├── ai/                     # [Bilal/Mujtaba] Model R&D
-│   ├── models/             # R2U-Net & VLM Architectures
-│   ├── transforms/         # MONAI Preprocessing & Augmentation
-│   └── trainers/           # Training scripts (Distributed Data Parallel)
-├── backend/                # [Anas/Mujtaba] FastAPI Services
-│   ├── api/                # Endpoints for Inference & Reports
-│   └── core/               # PII Anonymization & DICOM Parsing
-├── frontend/               # [Sheharyar/Mustafa] React Dashboard
-│   ├── components/         # Cornerstone.js & VTK.js viewers
-│   └── hooks/              # Supabase Auth & State Management
-├── data_engineering/       # [Rayan] Dataset Management
-│   ├── scripts/            # DICOM to NIfTI Conversion
-│   └── dvc/                # Data Version Control meta-files
-├── docker/                 # Deployment configurations
-└── README.md               # You are here
-
-# DentaVision
-
 ## Getting Started
 
 ### 1. Prerequisites
@@ -96,7 +72,7 @@ docker-compose up --build
 ---
 
 ## The Team (FAST-NUCES)
-* Bilal: Lead AI/CV Engineer (Model Architecture & Training).
+* Bilal: AI/CV Engineer (Model Architecture & Training).
 * Rayan: Database Architect & Data Engineer (Supabase & PII Stripping).
 * Sheharyar: Frontend Lead (UI/UX & Cornerstone.js Integration).
 * Mustafa: Cloud & DevOps (Heroku Deployment & Dockerization).
@@ -111,3 +87,24 @@ This project implements Privacy-by-Design. No PII (Personally Identifiable Infor
 ## License
 * Code is licensed under the MIT License.
 * The STS-Tooth Dataset is used under CC-BY-NC-ND 4.0 for academic research.
+##  Directory Structure
+
+```text
+DentaVision/
+├── .github/                # CI/CD Workflows & PR Templates
+├── ai/                     # [Bilal/Mujtaba] Model R&D
+│   ├── models/             # R2U-Net & VLM Architectures
+│   ├── transforms/         # MONAI Preprocessing & Augmentation
+│   └── trainers/           # Training scripts (Distributed Data Parallel)
+├── backend/                # [Anas/Mujtaba] FastAPI Services
+│   ├── api/                # Endpoints for Inference & Reports
+│   └── core/               # PII Anonymization & DICOM Parsing
+├── frontend/               # [Sheharyar/Mustafa] React Dashboard
+│   ├── components/         # Cornerstone.js & VTK.js viewers
+│   └── hooks/              # Supabase Auth & State Management
+├── data_engineering/       # [Rayan] Dataset Management
+│   ├── scripts/            # DICOM to NIfTI Conversion
+│   └── dvc/                # Data Version Control meta-files
+├── docker/                 # Deployment configurations
+└── README.md               # You are here
+
