@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "The DentaVision Team (FAST-NUCES)"
+title: "DentaVision: SOTA Implementation of Multi-Modal Dental Segmentation"
+version: 1.0.0
+date-released: 2026-02-07
+url: "https://github.com/your-org/DentaVision"
+abstract: >-
+  A clinical-grade implementation of the STS-Tooth (2025) paper, featuring 
+  R2 U-Net for 2D/3D dental segmentation with MONAI and FastAPI.
+references:
+  - type: article
+    authors:
+      - family-names: "Wang"
+        given-names: "Yaqi"
+      - family-names: "Ye"
+        given-names: "Fan"
+    title: "A multi-modal dental dataset for semi-supervised deep learning image segmentation"
+    journal: "Scientific Data"
+    year: 2025
+    doi: "10.1038/s41597-024-04306-9"
