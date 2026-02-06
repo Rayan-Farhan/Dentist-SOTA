@@ -1,6 +1,5 @@
 # DentaVision: Multi-Modal SOTA Dental Diagnostic Platform
 
-[![FAST-NUCES](https://img.shields.io/badge/FAST--NUCES-FYP--2026-blue)](https://www.nu.edu.pk/)
 [![Research](https://img.shields.io/badge/Based--on-STS--Tooth--2025-green)](https://doi.org/10.1038/s41597-024-04306-9)
 [![Framework](https://img.shields.io/badge/Powered--by-MONAI--PyTorch-red)](https://monai.io/)
 
