@@ -1,4 +1,4 @@
-# 🏗️ DentaVision System Architecture
+#  DentaVision System Architecture
 
 This document outlines the end-to-end technical flow of the DentaVision platform, based on the **STS-Tooth (2025)** research methodology.
 
