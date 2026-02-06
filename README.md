@@ -4,6 +4,8 @@
 [![Research](https://img.shields.io/badge/Based--on-STS--Tooth--2025-green)](https://doi.org/10.1038/s41597-024-04306-9)
 [![Framework](https://img.shields.io/badge/Powered--by-MONAI--PyTorch-red)](https://monai.io/)
 
+[ Documentation](docs/) | [Contributing](CONTRIBUTING.md) | [License](LICENSE)
+
 **DentaVision** is a clinical-grade implementation of the **STS-Tooth (2025)** research paper. It provides a resource-efficient, full-stack ecosystem for automated tooth segmentation and pathology detection using **R2 U-Net** on both 2D Panoramic X-rays (PXI) and 3D Cone Beam Computed Tomography (CBCT).
 
 ---
