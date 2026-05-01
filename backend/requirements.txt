@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pydicom
+numpy
+monai
+torch
+python-dotenv
+supabase
